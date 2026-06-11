@@ -1,0 +1,33 @@
+{
+  "name": "tuskills",
+  "version": "0.1.0",
+  "description": "Personal AI agent skills registry",
+  "type": "module",
+  "bin": {
+    "tuskills": "./bin/tuskills.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "skills",
+    "templates",
+    "README.md"
+  ],
+  "scripts": {
+    "start": "node ./bin/tuskills.js",
+    "check": "node ./bin/tuskills.js list"
+  },
+  "keywords": [
+    "ai-agent",
+    "skills",
+    "agents",
+    "codex",
+    "claude",
+    "zenstack"
+  ],
+  "author": "Tu Nguyen",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
